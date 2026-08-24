@@ -15,7 +15,7 @@ import {
   Wrench,
 } from 'lucide-react'
 
-const navItems = ['Home', 'Production Menu', 'Solutions', 'Our Work', 'About', 'Contact']
+const navItems = ['Home', 'Production Catalogue', 'Solutions', 'Our Work', 'About', 'Contact']
 
 const categoryCards = [
   {
@@ -49,32 +49,27 @@ const soundEquipment = [
   {
     name: 'RCF TOP HDL 30',
     description: 'Professional line-array loudspeaker designed for high-impact event sound reinforcement.',
-    image:
-      'https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/RCF-HDL%2030.jpeg',
   },
   {
     name: 'RCF SUB 9006',
     description: 'High-output subwoofer designed to deliver powerful low-frequency performance for large events.',
-    image:
-      'https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/RCF%20SUB%209006.jpeg',
   },
   {
     name: 'QSC K-12 MONITOR',
     description: 'Professional stage monitor for clear performer monitoring and reliable stage audio.',
-    image:
-      'https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/QSK-12%20MONITOR.jpeg',
   },
   {
     name: 'SHURE SLX-D MIC',
     description: 'Digital wireless microphone system for professional presentations, performances and live events.',
-    image:
-      'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/SHURE%20SLX-D.jpeg',
   },
   {
     name: 'ALLEN & HEATH SQ-6 DIGITAL CONSOLE',
     description: 'Professional digital mixing console for precise control of live event audio.',
-    image:
-      'https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/ALLEN%20HEATH.jpeg',
   },
 ]
 
@@ -82,26 +77,22 @@ const lightEquipment = [
   {
     name: 'ARENA CONSOLE',
     description: 'Professional lighting control for dynamic and synchronized stage lighting.',
-    image:
-      'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/ARENA%20CONSOLE%20OG.jpeg',
   },
   {
     name: 'SHARPIES',
     description: 'High-impact beam lighting for energetic stage looks and large-scale events.',
-    image:
-      'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/Ultimo_Sharpy_highlights_smooth_dimming.webp',
   },
   {
     name: 'LED PAR CAN',
     description: 'Versatile LED lighting for stage wash, color effects and event ambience.',
-    image:
-      'https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/LED%20PAR.jpeg',
   },
   {
     name: 'HAZE',
     description: 'Atmospheric haze designed to enhance lighting beams and create depth on stage.',
-    image:
-      'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/HAZE.jpeg',
   },
 ]
 
@@ -109,20 +100,17 @@ const ledEquipment = [
   {
     name: 'P3 LED WALL',
     description: 'High-impact LED display solution for stage visuals, branding, presentations and live content.',
-    image:
-      'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/P3%20LED%20WALL.jpeg',
   },
   {
     name: '4K PROCESSOR',
     description: 'Professional video processing for high-quality event visuals and LED display management.',
-    image:
-      'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/4K%20LED%20PROCESSOR.jpeg',
   },
   {
     name: 'SLIDE CHANGER',
     description: 'Professional presentation control for smooth switching between presentation content and event visuals.',
-    image:
-      'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/SLIDE%20CHANGER.jpeg',
   },
 ]
 
@@ -130,21 +118,18 @@ const stageEquipment = [
   {
     name: 'CONSOLE MASKING',
     description: 'Clean and professional masking solutions for technical console areas.',
-    image:
-      'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/bg_2.jpeg',
   },
   {
     name: 'PODIUM MASKING',
     description: 'Professional podium masking for a clean and polished stage presentation.',
-    image:
-      'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/PODIUM%20MASKING.jpeg',
   },
   {
     name: 'GOALPOST',
     description: 'Stage goalpost structure for supporting event production and visual elements.',
     specs: '520 × 400 — 1 NO',
-    image:
-      'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/bg_3.jpeg',
   },
 ]
 
@@ -167,16 +152,26 @@ const eventTypes = [
 
 const portfolioFilters = ['ALL', 'SOUND', 'LIGHT', 'LED', 'STAGE', 'EVENTS']
 
-const galleryItems = [
-  { category: 'sound', image: 'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1000&q=80' },
-  { category: 'light', image: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1000&q=80' },
-  { category: 'led', image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=80' },
-  { category: 'events', image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1000&q=80' },
-  { category: 'stage', image: 'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1000&q=80' },
-  { category: 'light', image: 'https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&w=1000&q=80' },
-  { category: 'events', image: 'https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?auto=format&fit=crop&w=1000&q=80' },
-  { category: 'stage', image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=80' },
-  { category: 'sound', image: 'https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1000&q=80' },
+const reelItems = [
+  {
+    category: 'sound',
+    title: 'Reel 01',
+    url: 'https://www.instagram.com/reel/DbbWLCUynFX/?igsi=MzRlODBiNWFlZA==',
+    embedUrl: 'https://www.instagram.com/reel/DbbWLCUynFX/embed/?utm_source=ig_web_copy_link',
+  },
+  {
+    category: 'light',
+    title: 'Reel 02',
+    url: 'https://www.instagram.com/reel/DadJxkISDft/?igsi=MzRlODBiNWFlZA==',
+    embedUrl: 'https://www.instagram.com/reel/DadJxkISDft/embed/?utm_source=ig_web_copy_link',
+  },
+  {
+    category: 'led',
+    title: 'Reel 03',
+    url: 'https://www.instagram.com/reel/DE1gweWyaYc/?igsi=MzRlODBiNWFlZA==',
+    embedUrl: 'https://www.instagram.com/reel/DE1gweWyaYc/embed/?utm_source=ig_web_copy_link',
+  },
+  
 ]
 
 const serviceOptions = ['Sound', 'Lighting', 'LED Wall', 'Stage & Structure', 'Technical Crew', 'Complete Production']
@@ -236,8 +231,7 @@ function App() {
           <div
             className="absolute inset-0 bg-cover bg-center opacity-40"
             style={{
-              backgroundImage:
-                "url('https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1800&q=80')",
+              backgroundImage: "url('/images/bg_2.jpeg')",
             }}
           />
           <div className="relative mx-auto grid min-h-[90vh] max-w-7xl items-center px-4 py-20 sm:px-6 lg:px-8">
@@ -283,7 +277,7 @@ function App() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="mb-12">
               <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-400">
-                THE ONSTAGE PRODUCTION MENU
+                THE ONSTAGE PRODUCTION CATALOGUE
               </p>
               <h3 className="mt-3 max-w-4xl text-3xl font-black tracking-[-0.06em] text-white sm:text-5xl">
                 Everything you need to take your event from setup to showtime.
@@ -491,12 +485,30 @@ function App() {
               </div>
             </div>
 
-            <div className="columns-1 gap-4 md:columns-2 xl:columns-3">
-              {galleryItems
+            <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+              {reelItems
                 .filter((item) => activeFilter === 'ALL' || item.category === activeFilter.toLowerCase())
                 .map((item, idx) => (
-                  <div key={`${item.category}-${idx}`} className="mb-4 overflow-hidden rounded-[24px] border border-white/10 bg-white/[0.02]">
-                    <img src={item.image} alt="ONSTAGE event production" className="h-auto w-full object-cover transition duration-500 hover:scale-105" />
+                  <div
+                    key={`${item.category}-${idx}`}
+                    className="group relative overflow-hidden rounded-[26px] border border-white/10 bg-black/30 shadow-[0_25px_55px_rgba(0,0,0,0.45)]"
+                    style={{ aspectRatio: '9 / 16' }}
+                  >
+                    <a href={item.url} target="_blank" rel="noreferrer" className="block h-full w-full">
+                      <iframe
+                        src={item.embedUrl}
+                        title={item.title}
+                        className="h-full w-full border-0"
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                        allowFullScreen
+                        loading="lazy"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                      />
+                    </a>
+                    <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent" />
+                    <div className="pointer-events-none absolute left-3 top-3 flex h-7 w-7 items-center justify-center rounded-full border border-white/20 bg-black/35 text-white/80">
+                      <span className="text-[10px]">▶</span>
+                    </div>
                   </div>
                 ))}
             </div>
@@ -522,7 +534,7 @@ function App() {
         </section>
 
         <section className="relative overflow-hidden py-24">
-          <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(10,10,12,0.85),rgba(10,10,12,0.5)),url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1800&q=80')] bg-cover bg-center opacity-70" />
+          <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(10,10,12,0.85),rgba(10,10,12,0.5)),url('/images/bg_1.jpeg')] bg-cover bg-center opacity-70" />
           <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
               <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-300">
@@ -628,9 +640,9 @@ function App() {
             <ul className="mt-4 space-y-2 text-sm text-slate-200">
               <li className="flex items-center gap-2"><Camera size={14} /> Instagram</li>
               <li className="flex items-center gap-2"><BriefcaseBusiness size={14} /> LinkedIn</li>
-              <li className="flex items-center gap-2"><Mail size={14} /> hello@onstage.example</li>
-              <li className="flex items-center gap-2"><Phone size={14} /> +91 00000 00000</li>
-              <li className="flex items-center gap-2"><MapPin size={14} /> 123 Event Avenue, City</li>
+              <li className="flex items-center gap-2"><Mail size={14} /> naveenchennai2005@gmail.com</li>
+              <li className="flex items-center gap-2"><Phone size={14} /> +91 9884397271</li>
+              <li className="flex items-center gap-2"><MapPin size={14} /> Chennai, India</li>
             </ul>
           </div>
         </div>
